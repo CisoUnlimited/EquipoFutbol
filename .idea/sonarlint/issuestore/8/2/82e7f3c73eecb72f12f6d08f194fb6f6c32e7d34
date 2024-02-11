@@ -1,3 +1,7 @@
 
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Ø–Î8‘À¶ÄÙ1
+Q
+java:S1068"/Remove this unused "equipoLocal" private field.(›¿Éğûÿÿÿÿ8—øãËÙ1
+P
+java:S1068"3Remove this unused "equipoVisitante" private field.(“¶ ª8—øãËÙ1
+M
+java:S1068"+Remove this unused "informe" private field.(´È¯‹ÿÿÿÿÿ8—øãËÙ1
