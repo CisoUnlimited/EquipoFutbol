@@ -2,11 +2,14 @@ package clases.subclases;
 
 import clases.Persona;
 
-public class Médico extends Persona {
+public class Medico extends Persona {
     private String titulacion;
     private int añosExperiencia;
 
-    public Médico(String nombre, String apellido, String dni, int edad, String titulacion, int añosExperiencia) {
+    public Medico() {
+    }
+
+    public Medico(String nombre, String apellido, String dni, int edad, String titulacion, int añosExperiencia) {
         super(nombre, apellido, dni, edad);
         this.titulacion = titulacion;
         this.añosExperiencia = añosExperiencia;

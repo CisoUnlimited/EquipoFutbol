@@ -3,10 +3,14 @@ package clases.subclases;
 import clases.Persona;
 
 public class Futbolista extends Persona {
+    private final String rol = "futbolista";
     private int numero;
     private String posicion;
     private int resistencia;
     private String lesiones;
+
+    public Futbolista() {
+    }
 
     public Futbolista(String nombre, String apellido, String dni, int edad, int numero, String posicion, int resistencia, String lesiones) {
         super(nombre, apellido, dni, edad);
@@ -66,5 +70,9 @@ public class Futbolista extends Persona {
     // Con entrevistarse, el futbolista dice su nombre y el número de goles que ha anotado
     public static void entrevistarse() {
 
+    }
+
+    public String getRol() {
+        return rol;
     }
 }

@@ -6,6 +6,9 @@ public class Persona {
     private String dni;
     private int edad;
 
+    public Persona() {
+    }
+
     public Persona(String nombre, String apellido, String dni, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -46,7 +49,7 @@ public class Persona {
     }
 
     // Este método nos dice qué rol tiene cada persona en el equipo
-    public static void rolEnEquipo() {
+    public void rolEnEquipo() {
 
     }
 }
