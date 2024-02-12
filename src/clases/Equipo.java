@@ -58,7 +58,7 @@ public class Equipo {
         this.futbolistas = futbolistas;
     }
 
-    public void dwfdw(Futbolista futbolista) {
+    public void ficharFutbolistas(Futbolista futbolista) {
         for (int i = 0; i < futbolistas.length; i++) {
             futbolistas[i] = futbolista;
         }
