@@ -72,29 +72,20 @@ public class Futbolista extends Persona {
     }
 
     // Con entrenar, aumentamos el cap de resistencia en un determinado entero que depende del tipo de entrenamiento
-    public void entrenar() {
-        int opcion = 0;
+    public void entrenar(int opcion) {
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Selecciona un tipo de entrenamiento:\n" +
-                "Introduce 1 para estirar.\n" +
-                "Introduce 2 para saltar.\n" +
-                "Introduce 3 para correr.");
         opcion = keyboard.nextInt();
         switch (opcion) {
             case 1:
-                System.out.println("Entrenamiento 1 seleccionado: estirar.");
-                setResistencia(this.resistencia+1);
+                setResistencia(getResistencia()+1);
                 break;
             case 2:
-                System.out.println("Entrenamiento 2 seleccionado: saltar.");
-                setResistencia(this.resistencia+3);
+                setResistencia(getResistencia()+3);
                 break;
             case 3:
-                System.out.println("Entrenamiento 3 seleccionado: correr.");
-                setResistencia(this.resistencia+5);
+                setResistencia(getResistencia()+5);
                 break;
             default:
-                System.out.println("Error en la selección de tipo de entrenamiento.");
                 break;
         }
     }

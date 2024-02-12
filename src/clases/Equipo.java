@@ -60,7 +60,23 @@ public class Equipo {
 
     public void ficharFutbolistas(Futbolista futbolista) {
         for (int i = 0; i < futbolistas.length; i++) {
-            futbolistas[i] = futbolista;
+            Futbolista pos
+            futbolistas[i] =
+        }
+    }
+
+    public void entrenar(int opcion) {
+        for (int i = 0; i < futbolistas.length; i++) {
+            futbolistas[i].entrenar(opcion);
+        }
+    }
+
+    public Futbolista[] convocar() {
+        Futbolista[] titulares = new Futbolista[5];
+        for (int i = 0; i < getFutbolistas().length; i++) {
+            for (int j = 0; j < titulares.length; j++) {
+
+            }
         }
     }
 }

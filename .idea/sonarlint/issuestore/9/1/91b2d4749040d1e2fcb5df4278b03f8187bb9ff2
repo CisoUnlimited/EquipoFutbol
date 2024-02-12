@@ -1,0 +1,8 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×™Õ»úÿÿÿÿ8ÑÅÙ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ş ûÿÿÿÿ8ÅÙÅÙ1
+w	java:S116"[Rename this field "aÃ±osExperiencia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îè¾Ó8ÔÅÙ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÂÃÕùÿÿÿÿ8ç©ŠØÙ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ş ûÿÿÿÿ8è©ŠØÙ1
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(”©õà8é©ŠØÙ1

@@ -1,0 +1,7 @@
+
+e
+java:S1226M"CIntroduce a new variable instead of reusing the parameter "opcion".(ÖÔùÿÿÿÿ8€§ŞùÙ1
+b	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(Ø··–ÿÿÿÿÿ8é“ÉïÙ1
+L	java:S106_"+Replace this use of System.out by a logger.(´õÁùÿÿÿÿ8•”ÉïÙ1
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(”©õà8™§ŞùÙ1
