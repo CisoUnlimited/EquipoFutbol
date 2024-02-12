@@ -1,4 +1,4 @@
-package clases.subclases;
+package clases;
 
 import clases.Persona;
 
@@ -19,5 +19,11 @@ public class Entrenador extends Persona {
 
     public void setEstrategia(String estrategia) {
         this.estrategia = estrategia;
+    }
+
+    @Override
+    public String rolEnEquipo() {
+        setRol("Entrenador");
+        return super.rolEnEquipo();
     }
 }

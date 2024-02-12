@@ -1,6 +1,7 @@
 package clases;
 
 public class Persona {
+    private String rol = "";
     private String nombre;
     private String apellido;
     private String dni;
@@ -48,8 +49,26 @@ public class Persona {
         this.edad = edad;
     }
 
-    // Este método nos dice qué rol tiene cada persona en el equipo
-    public void rolEnEquipo() {
+    public String getRol() {
+        return rol;
+    }
 
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+
+    // Este método nos dice qué rol tiene cada persona en el equipo
+    public String rolEnEquipo() {
+        return rol;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", dni='" + dni + '\'' +
+                ", edad=" + edad +
+                '}';
     }
 }

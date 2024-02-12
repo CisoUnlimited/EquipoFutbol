@@ -1,4 +1,4 @@
-package clases.subclases;
+package clases;
 
 import clases.Persona;
 
@@ -29,5 +29,11 @@ public class Medico extends Persona {
 
     public void setAñosExperiencia(int añosExperiencia) {
         this.añosExperiencia = añosExperiencia;
+    }
+
+    @Override
+    public String rolEnEquipo() {
+        setRol("Médico");
+        return super.rolEnEquipo();
     }
 }

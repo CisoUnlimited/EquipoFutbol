@@ -1,18 +1,17 @@
-package clases.subclases;
+package clases;
 
 import clases.Persona;
 
 public class Futbolista extends Persona {
-    private final String rol = "futbolista";
     private int numero;
     private String posicion;
     private int resistencia;
-    private String lesiones;
+    private int lesiones;
 
     public Futbolista() {
     }
 
-    public Futbolista(String nombre, String apellido, String dni, int edad, int numero, String posicion, int resistencia, String lesiones) {
+    public Futbolista(String nombre, String apellido, String dni, int edad, int numero, String posicion, int resistencia, int lesiones) {
         super(nombre, apellido, dni, edad);
         this.numero = numero;
         this.posicion = posicion;
@@ -44,35 +43,43 @@ public class Futbolista extends Persona {
         this.resistencia = resistencia;
     }
 
-    public String getLesiones() {
+    public int getLesiones() {
         return lesiones;
     }
 
-    public void setLesiones(String lesiones) {
+    public void setLesiones(int lesiones) {
         this.lesiones = lesiones;
     }
 
     // Con las lesiones, se pierde resistencia y aumentan las lesiones
-    public static void lesionarse() {
-
+    public void lesionarse() {
+        if (getResistencia()>0) {
+            setLesiones(getLesiones()+1);
+            setResistencia(getResistencia()-1);
+        }
     }
 
     // Con curarse, aumentamos resistencia y dismunuyen lesiones
-    public static void curarse() {
-
+    public void curarse() {
+        if (getLesiones()>0) {
+            setLesiones(getLesiones()-1);
+            setResistencia(getResistencia()+1);
+        }
     }
 
     // Con entrenar, aumentamos el cap de resistencia en un determinado entero que depende del tipo de entrenamiento
-    public static void entrenar() {
+    public void entrenar() {
 
     }
 
     // Con entrevistarse, el futbolista dice su nombre y el número de goles que ha anotado
-    public static void entrevistarse() {
+    public void entrevistarse() {
 
     }
 
-    public String getRol() {
-        return rol;
+    @Override
+    public String rolEnEquipo() {
+        setRol("Futbolista");
+        return super.rolEnEquipo();
     }
 }

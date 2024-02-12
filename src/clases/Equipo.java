@@ -1,12 +1,5 @@
 package clases;
 
-import clases.subclases.Entrenador;
-import clases.subclases.Futbolista;
-import clases.subclases.Medico;
-import sun.jvm.hotspot.gc.x.XForwardingEntry;
-
-import java.util.ArrayList;
-
 public class Equipo {
     private String nombre;
     private String localidad;

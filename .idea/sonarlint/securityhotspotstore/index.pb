@@ -170,3 +170,9 @@ G.idea/sonarlint/issuestore/2/3/23370b18e8405cdf89fb793b8c56e1d792e0ad85,9\9\99
 Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,3\0\30205a209c6ce77c4cfc19a09e6f57c588b7fb88
 Å
 Q.idea/sonarlint/securityhotspotstore/6/e/6ebee389c2649904dc7215b7c9f6e1d7e5799b31,9\8\98a467794173fb239853dcffcd8954b6cfc89145
+J
+src/clases/Entrenador.java,5\8\588d35cc29629540118bde687607556c504bc827
+J
+src/clases/Futbolista.java,f\1\f14c84f4d7e35ce2aff5970f66acd56152344782
+F
+src/clases/Medico.java,9\1\91b2d4749040d1e2fcb5df4278b03f8187bb9ff2
